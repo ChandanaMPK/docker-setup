@@ -751,13 +751,3 @@ do_install() {
 # wrapped up in a function so that we have some protection against only getting
 # half the file during "curl | sh"
 do_install
-
-docker --version
-
-sudo service docker start
-
-systemctl status docker
-
-sudo docker login --username=$1
-
-Echo "Docker installation complete"
