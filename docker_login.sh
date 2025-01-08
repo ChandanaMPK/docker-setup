@@ -8,4 +8,4 @@ systemctl status docker
 
 sudo docker login --username=$1
 
-Echo "Docker installation complete and verified"
+echo "Docker installation complete and verified"
