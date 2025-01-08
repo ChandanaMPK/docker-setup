@@ -1,4 +1,5 @@
 #!/bin/sh
+set -xe
 
 docker --version
 
